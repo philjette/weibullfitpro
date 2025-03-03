@@ -8,7 +8,7 @@ def login_signup():
         st.session_state.user_id = None
 
     # Add welcome header and description
-    st.title("Welcome to Weibull Fit Pro!")
+    st.title("Welcome to Weibull Fit!")
     st.markdown("""
     A powerful statistical modeling application designed to help engineers and reliability professionals analyze asset life and failure probability through advanced Weibull distribution modeling. Create, save, and compare models using various fitting methods, from simple point-based estimation to sophisticated Maximum Likelihood techniques.
 
